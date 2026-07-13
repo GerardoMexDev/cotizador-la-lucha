@@ -1,0 +1,66 @@
+# Sistema de Diseño — Cotizador Gomería La Lucha
+
+## 1. Paleta de colores
+
+| Uso | Color | Hex | Notas |
+|---|---|---|---|
+| Primario | Rojo Lucha | #C62328 | Precio destacado, focus, elementos activos |
+| Primario oscuro | Rojo oscuro | #A31D21 | Hover/active sobre primario |
+| Fondo | Blanco | #FFFFFF | Tarjetas, campo de búsqueda |
+| Fondo alternativo | Gris claro | #F2F2F2 | Fondo general de la página |
+| Texto principal | Negro carbón | #2B2B2B | Header, títulos |
+| Texto secundario | Gris medio | #6B6B6B | Subtítulos, ayudas, texto muted |
+| Éxito | Verde | #2E7D32 | (reservado, sin uso actual en MVP) |
+| Error | Rojo | #C62328 | Estados de error |
+| Bordes / divisores | Gris borde | #E2E2E2 | Inputs, separadores |
+
+## 2. Tipografía
+
+| Uso | Fuente | Peso | Tamaño (desktop / mobile) |
+|---|---|---|---|
+| Títulos (medida del neumático, marca del header) | Barlow Condensed | 700 | 26-30px / 26px |
+| Subtítulos (etiquetas, marca-chip) | Inter | 600 | 14-15px |
+| Cuerpo de texto | Inter | 400-500 | 14-16px |
+| Precio en pesos (destacado) | Barlow Condensed | 700 | 30-34px / 30px |
+| Texto pequeño (ayuda, contador) | Inter | 400-500 | 13px |
+
+- Fuente de Google Fonts: Barlow Condensed (600/700) + Inter (400/500/600/700)
+- Fallback: system-ui, -apple-system, sans-serif
+
+## 3. Espaciado y grilla
+
+- Unidad base: 8px
+- Escala: 8 / 16 / 24 / 32 / 48
+- Ancho máximo de contenido: 640px (760px desde 900px de viewport)
+- Breakpoints: mobile (base) / 640px / 900px
+
+## 4. Formas y estilos de componentes
+
+| Elemento | Border-radius | Sombra | Notas |
+|---|---|---|---|
+| Cards (resultado) | 20px | 0 1px 3px rgba(0,0,0,0.06) | |
+| Inputs de formulario | 14px | ninguna, con ring rojo en focus | |
+| Botón limpiar (input) | 50% (círculo) | ninguna | |
+
+## 5. Iconografía
+- Set de iconos: SVG inline hechos a medida (lupa, X, ícono vacío) — no se sumó librería externa por ser solo 3 iconos.
+- Estilo: outline, stroke 1.5-2px.
+
+## 6. Estados interactivos
+- Hover: chips cambian borde a gris oscuro; botón limpiar cambia fondo a gris borde.
+- Active/pressed: botón limpiar se achica levemente (scale 0.9).
+- Disabled: no aplica en el MVP (no hay acciones que se deshabiliten).
+- Focus: input de búsqueda con ring rojo de 4px (accesible, alto contraste).
+
+## 7. Tono visual general
+- 3 adjetivos: robusto, directo, funcional — tipo taller, no decorativo.
+- Referencia: el propio logo de La Lucha (tipografía condensada bold, alto contraste negro/rojo/blanco).
+
+## 8. Logo y marca
+- Logo completo (con texto "LA LUCHA GOMERÍA"): `planeacion/Logo_La_Lucha.png` — se usa para ícono de PWA (recortado) y assets externos, no en el header (ilegible achicado).
+- En el header de la app se usa: ícono de la cubierta recortado y ajustado sin márgenes (`public/img/icono-neumatico.png`, 56px de alto / 64px en desktop) + texto "LA LUCHA / GOMERÍA" tipografiado en Barlow Condensed. Header con fondo blanco y borde inferior rojo — el fondo oscuro original hacía que el ícono (líneas negras) se perdiera.
+- Iconos de PWA generados a partir del logo: `public/icons/` (192, 512, maskable 192/512, favicon 48).
+
+## 9. Componente: WhatsApp / clientes en espera
+- Botón de acción WhatsApp: verde de marca `#25D366` (color reconocible de WhatsApp, no del sistema de La Lucha) — se usa solo ahí, para que el vendedor identifique de un vistazo la acción de enviar mensaje.
+- Badge de contador ("Clientes en espera N"): rojo primario, pill, texto blanco.

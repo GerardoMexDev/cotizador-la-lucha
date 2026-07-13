@@ -1,0 +1,47 @@
+# Alcance y Funcionalidades — Cotizador (San Juan y Solís)
+
+> Completado en junta de organización con Gerardo. Base para arrancar el desarrollo en VS Code.
+
+## 1. Contexto del negocio
+- Cliente/negocio: San Juan y Solís — distribuidora de neumáticos (Auto/Camioneta/SUV, y otras categorías no incluidas en esta primera versión).
+- Problema que resuelve: los vendedores necesitan cotizar precios de neumáticos rápido, sin acceso a la lista de costos real ni a la lógica de descuentos del negocio.
+- Quién lo usa: vendedores del negocio, desde mobile y PC.
+
+## 2. Objetivo del proyecto
+Que un vendedor pueda buscar un neumático por medida/modelo y obtener el precio de venta al público de forma instantánea, sin necesitar la planilla de costos ni hacer cálculos a mano.
+
+## 3. Lista de funcionalidades — MVP
+
+| # | Funcionalidad | Descripción breve | Prioridad |
+|---|---|---|---|
+| 1 | Búsqueda/filtro por medida | El vendedor tipea o selecciona la medida (ej. 185/65R15) y ve las opciones disponibles | Alta |
+| 2 | Filtro por marca/modelo | Dentro de una medida, poder filtrar entre las marcas/modelos disponibles | Alta |
+| 3 | Mostrar precio de venta final | Mostrar el precio ya calculado (columna "PRECIO EN PESOS" del Excel), no el costo | Alta |
+| 4 | PWA instalable | Funciona en mobile (Android e iPhone) y PC, instalable como app | Alta |
+
+## 4. Funcionalidades para después (fuera del MVP)
+- Otras categorías de neumáticos (Transporte, Agrícolas/Forestales, Vial/Industrial) — hoy solo Auto/Camioneta/SUV.
+- Actualización automática de la lista de precios (hoy es un Excel que se genera manualmente cada vez que cambia la lista del proveedor).
+
+## 5. Explícitamente fuera de alcance
+- **El cotizador NO maneja descuentos adicionales.** Cualquier descuento extra sobre el precio mostrado se define y aplica en un paso posterior, al elaborar la factura — fuera de esta app. El cotizador solo muestra el precio fijo de venta al público.
+- No hay control de roles/permisos en esta versión (no se necesita, porque no hay ninguna acción sensible que restringir dentro de la app).
+- No hay backend/API propia en esta primera versión — no hace falta, según `05-guia-decision-tecnica.md`, porque no hay datos que cambien por usuario ni cálculos que deban ocultarse dinámicamente.
+
+## 6. Reglas de negocio confirmadas
+- El precio que ve el vendedor es el precio final de venta al público, ya con el 45% de ganancia aplicado — es fijo, el vendedor no lo edita ni lo ve desglosado.
+- El precio surge de: precio de lista del proveedor → descuento en cascada 41% + 8% → margen de ganancia 45% → redondeo estándar → conversión a pesos (x43, tipo de cambio a actualizar cuando corresponda).
+- Los descuentos adicionales que puedan otorgar los dueños del negocio se manejan en la facturación, no en el cotizador.
+
+## 7. Datos/decisión técnica
+- ¿El cliente edita contenido él mismo? No — la lista de precios se actualiza reemplazando el Excel manualmente cuando cambia la lista del proveedor (fuera del alcance de esta versión automatizar esa carga).
+- ¿Hay cálculos o datos sensibles? El costo real y el margen no deben ser visibles para el vendedor — por eso el archivo que consume la app (`LISTA_SJyS_julio_2026_cotizador_final.xlsx`) ya viene sin las columnas de costo/descuento/margen, solo con el precio final.
+- ¿Integraciones externas? Ninguna en esta versión.
+- **Stack decidido**: PWA con JS vanilla (sin framework), sin backend — filtro client-side sobre los datos del Excel (convertido a JSON o similar para que lo lea el frontend). Justificación: no hay datos sensibles que ocultar dinámicamente ni lógica de negocio variable, así que no se justifica sumar backend (ver `05-guia-decision-tecnica.md`).
+- **Compatibilidad confirmada**: debe funcionar en Android, iPhone y PC. Punto de atención para el desarrollo: Safari/iOS soporta PWA de forma más limitada que Android/Chrome (por ejemplo, las notificaciones push y algunas APIs de instalación funcionan distinto, y la instalación en iPhone se hace vía "Agregar a inicio" desde Safari, no con el banner automático que sí aparece en Android). Probar la instalación real en un iPhone antes de dar por terminada la app, no asumir que si funciona en Android funciona igual en iOS (ver `07-estandar-responsive.md`, sección PWA).
+
+## 8. Plazos y expectativas
+- A definir con Gerardo al iniciar el desarrollo en VS Code.
+
+## 9. Cómo se valida el éxito
+- Un vendedor puede encontrar el precio de un neumático por medida/modelo en menos de 15 segundos, sin ayuda, y sin ver ningún dato de costo o margen interno.

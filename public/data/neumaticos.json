@@ -1,0 +1,1354 @@
+[
+  {
+    "medida": "155/65R13",
+    "marca": "RAPID",
+    "modelo": "P329",
+    "origen": "CHINA",
+    "precioDolares": 53,
+    "precioPesos": 2279
+  },
+  {
+    "medida": "155/70R13",
+    "marca": "RAPID",
+    "modelo": "P309",
+    "origen": "CHINA",
+    "precioDolares": 55,
+    "precioPesos": 2365
+  },
+  {
+    "medida": "155/70R13",
+    "marca": "RAPID",
+    "modelo": "P329",
+    "origen": "CHINA",
+    "precioDolares": 55,
+    "precioPesos": 2365
+  },
+  {
+    "medida": "155/80R13",
+    "marca": "RAPID",
+    "modelo": "P329",
+    "origen": "CHINA",
+    "precioDolares": 61,
+    "precioPesos": 2623
+  },
+  {
+    "medida": "165/65R13",
+    "marca": "RAPID",
+    "modelo": "P329",
+    "origen": "CHINA",
+    "precioDolares": 54,
+    "precioPesos": 2322
+  },
+  {
+    "medida": "165/70R13",
+    "marca": "RAPID",
+    "modelo": "P329",
+    "origen": "CHINA",
+    "precioDolares": 57,
+    "precioPesos": 2451
+  },
+  {
+    "medida": "165/70R13",
+    "marca": "WANLI",
+    "modelo": "SP026",
+    "origen": "CHINA",
+    "precioDolares": 58,
+    "precioPesos": 2494
+  },
+  {
+    "medida": "165/70R13",
+    "marca": "RAPID",
+    "modelo": "EFFIVAN C",
+    "origen": "CHINA",
+    "precioDolares": 71,
+    "precioPesos": 3053
+  },
+  {
+    "medida": "175/70R13",
+    "marca": "RAPID",
+    "modelo": "ECO809",
+    "origen": "CHINA",
+    "precioDolares": 58,
+    "precioPesos": 2494
+  },
+  {
+    "medida": "175/70R13",
+    "marca": "RAPID",
+    "modelo": "P329",
+    "origen": "CHINA",
+    "precioDolares": 58,
+    "precioPesos": 2494
+  },
+  {
+    "medida": "185/70R13",
+    "marca": "RAPID",
+    "modelo": "P329",
+    "origen": "CHINA",
+    "precioDolares": 66,
+    "precioPesos": 2838
+  },
+  {
+    "medida": "155/65R14",
+    "marca": "RAPID",
+    "modelo": "P309",
+    "origen": "CHINA",
+    "precioDolares": 54,
+    "precioPesos": 2322
+  },
+  {
+    "medida": "155/65R14",
+    "marca": "RAPID",
+    "modelo": "P329",
+    "origen": "CHINA",
+    "precioDolares": 54,
+    "precioPesos": 2322
+  },
+  {
+    "medida": "155/65R14",
+    "marca": "WANLI",
+    "modelo": "SP026",
+    "origen": "CHINA",
+    "precioDolares": 56,
+    "precioPesos": 2408
+  },
+  {
+    "medida": "165/60R14",
+    "marca": "RAPID",
+    "modelo": "P329",
+    "origen": "CHINA",
+    "precioDolares": 58,
+    "precioPesos": 2494
+  },
+  {
+    "medida": "165/70R14",
+    "marca": "RAPID",
+    "modelo": "P329",
+    "origen": "CHINA",
+    "precioDolares": 62,
+    "precioPesos": 2666
+  },
+  {
+    "medida": "175/65R14",
+    "marca": "RAPID",
+    "modelo": "P329",
+    "origen": "CHINA",
+    "precioDolares": 60,
+    "precioPesos": 2580
+  },
+  {
+    "medida": "175/65R14",
+    "marca": "RAPID",
+    "modelo": "ECO809",
+    "origen": "CHINA",
+    "precioDolares": 59,
+    "precioPesos": 2537
+  },
+  {
+    "medida": "175/70R14",
+    "marca": "RAPID",
+    "modelo": "ECO809",
+    "origen": "CHINA",
+    "precioDolares": 61,
+    "precioPesos": 2623
+  },
+  {
+    "medida": "175/70R14",
+    "marca": "RAPID",
+    "modelo": "P329",
+    "origen": "CHINA",
+    "precioDolares": 61,
+    "precioPesos": 2623
+  },
+  {
+    "medida": "175/70R14",
+    "marca": "RAPID",
+    "modelo": "EFFIVAN C",
+    "origen": "CHINA",
+    "precioDolares": 86,
+    "precioPesos": 3698
+  },
+  {
+    "medida": "185/60R14",
+    "marca": "RAPID",
+    "modelo": "P329",
+    "origen": "CHINA",
+    "precioDolares": 66,
+    "precioPesos": 2838
+  },
+  {
+    "medida": "185/65R14",
+    "marca": "RAPID",
+    "modelo": "P329",
+    "origen": "CHINA",
+    "precioDolares": 68,
+    "precioPesos": 2924
+  },
+  {
+    "medida": "185/70R14",
+    "marca": "RAPID",
+    "modelo": "P309 / P329",
+    "origen": "CHINA",
+    "precioDolares": 71,
+    "precioPesos": 3053
+  },
+  {
+    "medida": "185R14",
+    "marca": "RAPID",
+    "modelo": "EFFIVAN C",
+    "origen": "CHINA",
+    "precioDolares": 97,
+    "precioPesos": 4171
+  },
+  {
+    "medida": "195/60R14",
+    "marca": "RAPID",
+    "modelo": "P329",
+    "origen": "CHINA",
+    "precioDolares": 70,
+    "precioPesos": 3010
+  },
+  {
+    "medida": "195R14",
+    "marca": "RAPID",
+    "modelo": "EFFIVAN C",
+    "origen": "CHINA",
+    "precioDolares": 108,
+    "precioPesos": 4644
+  },
+  {
+    "medida": "195R14",
+    "marca": "WANLI",
+    "modelo": "SL106 C",
+    "origen": "CHINA",
+    "precioDolares": 108,
+    "precioPesos": 4644
+  },
+  {
+    "medida": "175/60R15",
+    "marca": "WANLI",
+    "modelo": "SP022",
+    "origen": "CHINA",
+    "precioDolares": 77,
+    "precioPesos": 3311
+  },
+  {
+    "medida": "175/65R15",
+    "marca": "RAPID",
+    "modelo": "P329",
+    "origen": "CHINA",
+    "precioDolares": 69,
+    "precioPesos": 2967
+  },
+  {
+    "medida": "175/65R15",
+    "marca": "WANLI",
+    "modelo": "SP026",
+    "origen": "CHINA",
+    "precioDolares": 72,
+    "precioPesos": 3096
+  },
+  {
+    "medida": "185/55R15",
+    "marca": "RAPID",
+    "modelo": "ECO809",
+    "origen": "CHINA",
+    "precioDolares": 61,
+    "precioPesos": 2623
+  },
+  {
+    "medida": "185/60R15",
+    "marca": "RAPID",
+    "modelo": "ECO809",
+    "origen": "CHINA",
+    "precioDolares": 68,
+    "precioPesos": 2924
+  },
+  {
+    "medida": "185/65R15",
+    "marca": "RAPID",
+    "modelo": "ECO809",
+    "origen": "CHINA",
+    "precioDolares": 69,
+    "precioPesos": 2967
+  },
+  {
+    "medida": "185/65R15",
+    "marca": "RAPID",
+    "modelo": "P329",
+    "origen": "CHINA",
+    "precioDolares": 70,
+    "precioPesos": 3010
+  },
+  {
+    "medida": "195/50R15",
+    "marca": "RAPID",
+    "modelo": "ECO819",
+    "origen": "CHINA",
+    "precioDolares": 67,
+    "precioPesos": 2881
+  },
+  {
+    "medida": "195/55R15",
+    "marca": "RAPID",
+    "modelo": "P609",
+    "origen": "CHINA",
+    "precioDolares": 76,
+    "precioPesos": 3268
+  },
+  {
+    "medida": "195/55R15",
+    "marca": "RAPID",
+    "modelo": "ECO819",
+    "origen": "CHINA",
+    "precioDolares": 76,
+    "precioPesos": 3268
+  },
+  {
+    "medida": "195/60R15",
+    "marca": "RAPID",
+    "modelo": "ECO809",
+    "origen": "CHINA",
+    "precioDolares": 72,
+    "precioPesos": 3096
+  },
+  {
+    "medida": "195/65R15",
+    "marca": "RAPID",
+    "modelo": "ECO809",
+    "origen": "CHINA",
+    "precioDolares": 74,
+    "precioPesos": 3182
+  },
+  {
+    "medida": "195/75R15",
+    "marca": "RAPID",
+    "modelo": "EFFIVAN C",
+    "origen": "CHINA",
+    "precioDolares": 118,
+    "precioPesos": 5074
+  },
+  {
+    "medida": "195R15",
+    "marca": "WANLI",
+    "modelo": "SL106 C",
+    "origen": "CHINA",
+    "precioDolares": 108,
+    "precioPesos": 4644
+  },
+  {
+    "medida": "205/60R15",
+    "marca": "RAPID",
+    "modelo": "P329",
+    "origen": "CHINA",
+    "precioDolares": 81,
+    "precioPesos": 3483
+  },
+  {
+    "medida": "205/65R15",
+    "marca": "RAPID",
+    "modelo": "P329",
+    "origen": "CHINA",
+    "precioDolares": 77,
+    "precioPesos": 3311
+  },
+  {
+    "medida": "205/65R15",
+    "marca": "WANLI",
+    "modelo": "SU009 AT",
+    "origen": "CHINA",
+    "precioDolares": 100,
+    "precioPesos": 4300
+  },
+  {
+    "medida": "205/70R15",
+    "marca": "RAPID",
+    "modelo": "EFFIVAN C",
+    "origen": "CHINA",
+    "precioDolares": 110,
+    "precioPesos": 4730
+  },
+  {
+    "medida": "205/70R15",
+    "marca": "SUNNY",
+    "modelo": "NL106 C",
+    "origen": "CHINA",
+    "precioDolares": 110,
+    "precioPesos": 4730
+  },
+  {
+    "medida": "215/70R15",
+    "marca": "RAPID",
+    "modelo": "EFFIVAN C",
+    "origen": "CHINA",
+    "precioDolares": 112,
+    "precioPesos": 4816
+  },
+  {
+    "medida": "215/75R15",
+    "marca": "RAPID",
+    "modelo": "ECOLANDER AT",
+    "origen": "CHINA",
+    "precioDolares": 135,
+    "precioPesos": 5805
+  },
+  {
+    "medida": "225/75R15",
+    "marca": "RAPID",
+    "modelo": "ECOLANDER AT",
+    "origen": "CHINA",
+    "precioDolares": 145,
+    "precioPesos": 6235
+  },
+  {
+    "medida": "235/75R15",
+    "marca": "RAPID",
+    "modelo": "ECOLANDER AT",
+    "origen": "CHINA",
+    "precioDolares": 145,
+    "precioPesos": 6235
+  },
+  {
+    "medida": "235/75R15",
+    "marca": "WANLI",
+    "modelo": "SU009 AT",
+    "origen": "CHINA",
+    "precioDolares": 142,
+    "precioPesos": 6106
+  },
+  {
+    "medida": "31x10.50R15",
+    "marca": "RAPID",
+    "modelo": "ECOLANDER AT",
+    "origen": "CHINA",
+    "precioDolares": 175,
+    "precioPesos": 7525
+  },
+  {
+    "medida": "31x10.50R15",
+    "marca": "WANLI",
+    "modelo": "SU009 AT",
+    "origen": "CHINA",
+    "precioDolares": 172,
+    "precioPesos": 7396
+  },
+  {
+    "medida": "31X10.50R15",
+    "marca": "RAPID",
+    "modelo": "MUD CONTENDER MT",
+    "origen": "CHINA",
+    "precioDolares": 206,
+    "precioPesos": 8858
+  },
+  {
+    "medida": "185/55R16",
+    "marca": "RAPID",
+    "modelo": "P329",
+    "origen": "CHINA",
+    "precioDolares": 72,
+    "precioPesos": 3096
+  },
+  {
+    "medida": "195/45R16",
+    "marca": "RAPID",
+    "modelo": "ECO819",
+    "origen": "CHINA",
+    "precioDolares": 72,
+    "precioPesos": 3096
+  },
+  {
+    "medida": "195/45R16",
+    "marca": "WANLI",
+    "modelo": "SA302",
+    "origen": "CHINA",
+    "precioDolares": 76,
+    "precioPesos": 3268
+  },
+  {
+    "medida": "195/55R16",
+    "marca": "RAPID",
+    "modelo": "ECO819",
+    "origen": "CHINA",
+    "precioDolares": 72,
+    "precioPesos": 3096
+  },
+  {
+    "medida": "195/55R16",
+    "marca": "SUNNY",
+    "modelo": "NP226",
+    "origen": "CHINA",
+    "precioDolares": 72,
+    "precioPesos": 3096
+  },
+  {
+    "medida": "195/60R16",
+    "marca": "RAPID",
+    "modelo": "P329",
+    "origen": "CHINA",
+    "precioDolares": 81,
+    "precioPesos": 3483
+  },
+  {
+    "medida": "195/75R16",
+    "marca": "RAPID",
+    "modelo": "EFFIVAN C",
+    "origen": "CHINA",
+    "precioDolares": 118,
+    "precioPesos": 5074
+  },
+  {
+    "medida": "205/55R16",
+    "marca": "RAPID",
+    "modelo": "ECO809",
+    "origen": "CHINA",
+    "precioDolares": 76,
+    "precioPesos": 3268
+  },
+  {
+    "medida": "205/60R16",
+    "marca": "RAPID",
+    "modelo": "ECO809",
+    "origen": "CHINA",
+    "precioDolares": 82,
+    "precioPesos": 3526
+  },
+  {
+    "medida": "205/60R16",
+    "marca": "WANLI",
+    "modelo": "SU009 AT",
+    "origen": "CHINA",
+    "precioDolares": 95,
+    "precioPesos": 4085
+  },
+  {
+    "medida": "205/65R16",
+    "marca": "RAPID",
+    "modelo": "P329",
+    "origen": "CHINA",
+    "precioDolares": 87,
+    "precioPesos": 3741
+  },
+  {
+    "medida": "205/65R16",
+    "marca": "WANLI",
+    "modelo": "SP026",
+    "origen": "CHINA",
+    "precioDolares": 98,
+    "precioPesos": 4214
+  },
+  {
+    "medida": "205R16",
+    "marca": "RAPID",
+    "modelo": "CROSSLANDER AT",
+    "origen": "CHINA",
+    "precioDolares": 132,
+    "precioPesos": 5676
+  },
+  {
+    "medida": "215/55R16",
+    "marca": "WANLI",
+    "modelo": "SA302",
+    "origen": "CHINA",
+    "precioDolares": 95,
+    "precioPesos": 4085
+  },
+  {
+    "medida": "215/55R16",
+    "marca": "WANLI",
+    "modelo": "H220",
+    "origen": "CHINA",
+    "precioDolares": 95,
+    "precioPesos": 4085
+  },
+  {
+    "medida": "215/60R16",
+    "marca": "RAPID",
+    "modelo": "P329",
+    "origen": "CHINA",
+    "precioDolares": 88,
+    "precioPesos": 3784
+  },
+  {
+    "medida": "215/60R16",
+    "marca": "RAPID",
+    "modelo": "ECO819",
+    "origen": "CHINA",
+    "precioDolares": 88,
+    "precioPesos": 3784
+  },
+  {
+    "medida": "215/65R16",
+    "marca": "RAPID",
+    "modelo": "ECOSAVER HT",
+    "origen": "CHINA",
+    "precioDolares": 109,
+    "precioPesos": 4687
+  },
+  {
+    "medida": "215/65R16",
+    "marca": "RAPID",
+    "modelo": "EFFIVAN C",
+    "origen": "CHINA",
+    "precioDolares": 124,
+    "precioPesos": 5332
+  },
+  {
+    "medida": "215/70R16",
+    "marca": "WANLI",
+    "modelo": "SU025 SUV",
+    "origen": "CHINA",
+    "precioDolares": 113,
+    "precioPesos": 4859
+  },
+  {
+    "medida": "215/75R16",
+    "marca": "SUNNY",
+    "modelo": "NL106 C",
+    "origen": "CHINA",
+    "precioDolares": 138,
+    "precioPesos": 5934
+  },
+  {
+    "medida": "215/75R16",
+    "marca": "RAPID",
+    "modelo": "EFFIVAN C",
+    "origen": "CHINA",
+    "precioDolares": 135,
+    "precioPesos": 5805
+  },
+  {
+    "medida": "225/55R16",
+    "marca": "WANLI",
+    "modelo": "SA302",
+    "origen": "CHINA",
+    "precioDolares": 104,
+    "precioPesos": 4472
+  },
+  {
+    "medida": "225/65R16",
+    "marca": "RAPID",
+    "modelo": "EFFIVAN C",
+    "origen": "CHINA",
+    "precioDolares": 137,
+    "precioPesos": 5891
+  },
+  {
+    "medida": "225/75R16",
+    "marca": "WANLI",
+    "modelo": "SL106 C",
+    "origen": "CHINA",
+    "precioDolares": 152,
+    "precioPesos": 6536
+  },
+  {
+    "medida": "235/60R16",
+    "marca": "RAPID",
+    "modelo": "ECOSAVER HT",
+    "origen": "CHINA",
+    "precioDolares": 125,
+    "precioPesos": 5375
+  },
+  {
+    "medida": "235/65R16",
+    "marca": "SUNNY",
+    "modelo": "NL106 C",
+    "origen": "CHINA",
+    "precioDolares": 130,
+    "precioPesos": 5590
+  },
+  {
+    "medida": "235/70R16",
+    "marca": "RAPID",
+    "modelo": "ECOLANDER AT",
+    "origen": "CHINA",
+    "precioDolares": 140,
+    "precioPesos": 6020
+  },
+  {
+    "medida": "235/70R16",
+    "marca": "WANLI",
+    "modelo": "SU009 AT",
+    "origen": "CHINA",
+    "precioDolares": 131,
+    "precioPesos": 5633
+  },
+  {
+    "medida": "245/70R16",
+    "marca": "RAPID",
+    "modelo": "ECOLANDER AT",
+    "origen": "CHINA",
+    "precioDolares": 146,
+    "precioPesos": 6278
+  },
+  {
+    "medida": "255/70R16",
+    "marca": "RAPID",
+    "modelo": "ECOLANDER AT",
+    "origen": "CHINA",
+    "precioDolares": 167,
+    "precioPesos": 7181
+  },
+  {
+    "medida": "255/70R16",
+    "marca": "WANLI",
+    "modelo": "SU009 AT",
+    "origen": "CHINA",
+    "precioDolares": 167,
+    "precioPesos": 7181
+  },
+  {
+    "medida": "265/70R16",
+    "marca": "RAPID",
+    "modelo": "ECOSAVER HT",
+    "origen": "CHINA",
+    "precioDolares": 162,
+    "precioPesos": 6966
+  },
+  {
+    "medida": "265/70R16",
+    "marca": "RAPID",
+    "modelo": "ECOLANDER AT",
+    "origen": "CHINA",
+    "precioDolares": 164,
+    "precioPesos": 7052
+  },
+  {
+    "medida": "265/70R16",
+    "marca": "WANLI",
+    "modelo": "SU009 AT",
+    "origen": "CHINA",
+    "precioDolares": 164,
+    "precioPesos": 7052
+  },
+  {
+    "medida": "205/45R17",
+    "marca": "RAPID",
+    "modelo": "ECO819",
+    "origen": "CHINA",
+    "precioDolares": 82,
+    "precioPesos": 3526
+  },
+  {
+    "medida": "205/50R17",
+    "marca": "RAPID",
+    "modelo": "ECO819",
+    "origen": "CHINA",
+    "precioDolares": 82,
+    "precioPesos": 3526
+  },
+  {
+    "medida": "205/50R17",
+    "marca": "WANLI",
+    "modelo": "SP022 EV",
+    "origen": "CHINA",
+    "precioDolares": 103,
+    "precioPesos": 4429
+  },
+  {
+    "medida": "205/55R17",
+    "marca": "RAPID",
+    "modelo": "P609",
+    "origen": "CHINA",
+    "precioDolares": 98,
+    "precioPesos": 4214
+  },
+  {
+    "medida": "215/45R17",
+    "marca": "RAPID",
+    "modelo": "ECO819",
+    "origen": "CHINA",
+    "precioDolares": 85,
+    "precioPesos": 3655
+  },
+  {
+    "medida": "215/45R17",
+    "marca": "WANLI",
+    "modelo": "SA302",
+    "origen": "CHINA",
+    "precioDolares": 86,
+    "precioPesos": 3698
+  },
+  {
+    "medida": "215/50R17",
+    "marca": "RAPID",
+    "modelo": "ECO819",
+    "origen": "CHINA",
+    "precioDolares": 97,
+    "precioPesos": 4171
+  },
+  {
+    "medida": "215/55R17",
+    "marca": "RAPID",
+    "modelo": "ECO819",
+    "origen": "CHINA",
+    "precioDolares": 97,
+    "precioPesos": 4171
+  },
+  {
+    "medida": "215/60R17",
+    "marca": "RAPID",
+    "modelo": "ECOSAVER II HT",
+    "origen": "CHINA",
+    "precioDolares": 109,
+    "precioPesos": 4687
+  },
+  {
+    "medida": "215/60R17",
+    "marca": "RAPID",
+    "modelo": "SP022 EV",
+    "origen": "CHINA",
+    "precioDolares": 112,
+    "precioPesos": 4816
+  },
+  {
+    "medida": "215/65R17",
+    "marca": "RAPID",
+    "modelo": "ECOSAVER II HT",
+    "origen": "CHINA",
+    "precioDolares": 116,
+    "precioPesos": 4988
+  },
+  {
+    "medida": "215/65R17",
+    "marca": "WANLI",
+    "modelo": "SP022 EV",
+    "origen": "CHINA",
+    "precioDolares": 113,
+    "precioPesos": 4859
+  },
+  {
+    "medida": "225/45R17",
+    "marca": "RAPID",
+    "modelo": "ECO819",
+    "origen": "CHINA",
+    "precioDolares": 89,
+    "precioPesos": 3827
+  },
+  {
+    "medida": "225/50R17",
+    "marca": "RAPID",
+    "modelo": "ECO819",
+    "origen": "CHINA",
+    "precioDolares": 97,
+    "precioPesos": 4171
+  },
+  {
+    "medida": "225/50R17",
+    "marca": "RAPID",
+    "modelo": "P609",
+    "origen": "CHINA",
+    "precioDolares": 97,
+    "precioPesos": 4171
+  },
+  {
+    "medida": "225/50R17",
+    "marca": "SUNNY",
+    "modelo": "NA305",
+    "origen": "CHINA",
+    "precioDolares": 97,
+    "precioPesos": 4171
+  },
+  {
+    "medida": "225/55R17",
+    "marca": "RAPID",
+    "modelo": "P609",
+    "origen": "CHINA",
+    "precioDolares": 111,
+    "precioPesos": 4773
+  },
+  {
+    "medida": "225/60R17",
+    "marca": "RAPID",
+    "modelo": "ECOSAVER II HT",
+    "origen": "CHINA",
+    "precioDolares": 115,
+    "precioPesos": 4945
+  },
+  {
+    "medida": "225/65R17",
+    "marca": "RAPID",
+    "modelo": "ECOSAVER II HT",
+    "origen": "CHINA",
+    "precioDolares": 121,
+    "precioPesos": 5203
+  },
+  {
+    "medida": "235/40R17",
+    "marca": "RAPID",
+    "modelo": "ECO819",
+    "origen": "CHINA",
+    "precioDolares": 105,
+    "precioPesos": 4515
+  },
+  {
+    "medida": "235/45R17",
+    "marca": "WANLI",
+    "modelo": "SA302",
+    "origen": "CHINA",
+    "precioDolares": 108,
+    "precioPesos": 4644
+  },
+  {
+    "medida": "235/45R17",
+    "marca": "GOODYEAR",
+    "modelo": "EFFICIENTGRIP",
+    "origen": "CHINA",
+    "precioDolares": 302,
+    "precioPesos": 12986
+  },
+  {
+    "medida": "235/55R17",
+    "marca": "RAPID",
+    "modelo": "P609",
+    "origen": "CHINA",
+    "precioDolares": 120,
+    "precioPesos": 5160
+  },
+  {
+    "medida": "235/65R17",
+    "marca": "RAPID",
+    "modelo": "VELOTRAC HT",
+    "origen": "CHINA",
+    "precioDolares": 124,
+    "precioPesos": 5332
+  },
+  {
+    "medida": "235/65R17",
+    "marca": "WANLI",
+    "modelo": "SU025 SUV",
+    "origen": "CHINA",
+    "precioDolares": 135,
+    "precioPesos": 5805
+  },
+  {
+    "medida": "245/40R17",
+    "marca": "RAPID",
+    "modelo": "P609",
+    "origen": "CHINA",
+    "precioDolares": 112,
+    "precioPesos": 4816
+  },
+  {
+    "medida": "245/45R17",
+    "marca": "RAPID",
+    "modelo": "P609",
+    "origen": "CHINA",
+    "precioDolares": 112,
+    "precioPesos": 4816
+  },
+  {
+    "medida": "245/65R17",
+    "marca": "RAPID",
+    "modelo": "ECOSAVER HT",
+    "origen": "CHINA",
+    "precioDolares": 150,
+    "precioPesos": 6450
+  },
+  {
+    "medida": "245/65R17",
+    "marca": "WANLI",
+    "modelo": "SU025 SUV",
+    "origen": "CHINA",
+    "precioDolares": 143,
+    "precioPesos": 6149
+  },
+  {
+    "medida": "255/65R17",
+    "marca": "RAPID",
+    "modelo": "ECOSAVER HT",
+    "origen": "CHINA",
+    "precioDolares": 157,
+    "precioPesos": 6751
+  },
+  {
+    "medida": "265/65R17",
+    "marca": "RAPID",
+    "modelo": "ECOLANDER AT",
+    "origen": "CHINA",
+    "precioDolares": 169,
+    "precioPesos": 7267
+  },
+  {
+    "medida": "265/65R17",
+    "marca": "WANLI",
+    "modelo": "M105 MT",
+    "origen": "CHINA",
+    "precioDolares": 259,
+    "precioPesos": 11137
+  },
+  {
+    "medida": "265/70R17",
+    "marca": "RAPID",
+    "modelo": "ECOLANDER AT",
+    "origen": "CHINA",
+    "precioDolares": 201,
+    "precioPesos": 8643
+  },
+  {
+    "medida": "265/70R17",
+    "marca": "RAPID",
+    "modelo": "MUD CONTENDER MT",
+    "origen": "CHINA",
+    "precioDolares": 250,
+    "precioPesos": 10750
+  },
+  {
+    "medida": "265/70R17",
+    "marca": "WANLI",
+    "modelo": "M105 MT",
+    "origen": "CHINA",
+    "precioDolares": 235,
+    "precioPesos": 10105
+  },
+  {
+    "medida": "275/65R17",
+    "marca": "RAPID",
+    "modelo": "ECOLANDER AT",
+    "origen": "CHINA",
+    "precioDolares": 183,
+    "precioPesos": 7869
+  },
+  {
+    "medida": "315/70R17",
+    "marca": "RAPID",
+    "modelo": "ECOLANDER AT",
+    "origen": "CHINA",
+    "precioDolares": 264,
+    "precioPesos": 11352
+  },
+  {
+    "medida": "215/45R18",
+    "marca": "WANLI",
+    "modelo": "SA302",
+    "origen": "CHINA",
+    "precioDolares": 109,
+    "precioPesos": 4687
+  },
+  {
+    "medida": "215/55R18",
+    "marca": "RAPID",
+    "modelo": "ECOSAVER HT",
+    "origen": "CHINA",
+    "precioDolares": 113,
+    "precioPesos": 4859
+  },
+  {
+    "medida": "215/55R18",
+    "marca": "RAPID",
+    "modelo": "SP022 EV",
+    "origen": "CHINA",
+    "precioDolares": 116,
+    "precioPesos": 4988
+  },
+  {
+    "medida": "225/40R18",
+    "marca": "RAPID",
+    "modelo": "ECO819",
+    "origen": "CHINA",
+    "precioDolares": 92,
+    "precioPesos": 3956
+  },
+  {
+    "medida": "225/45R18",
+    "marca": "RAPID",
+    "modelo": "P609",
+    "origen": "CHINA",
+    "precioDolares": 109,
+    "precioPesos": 4687
+  },
+  {
+    "medida": "225/45R18",
+    "marca": "WANLI",
+    "modelo": "SP022 EV",
+    "origen": "CHINA",
+    "precioDolares": 112,
+    "precioPesos": 4816
+  },
+  {
+    "medida": "225/50R18",
+    "marca": "RAPID",
+    "modelo": "ECOSPORT SUV",
+    "origen": "CHINA",
+    "precioDolares": 114,
+    "precioPesos": 4902
+  },
+  {
+    "medida": "225/50R18",
+    "marca": "GOODYEAR",
+    "modelo": "EFFICIENTGRIP PERFORMANCE",
+    "origen": "CHINA",
+    "precioDolares": 323,
+    "precioPesos": 13889
+  },
+  {
+    "medida": "235/40R18",
+    "marca": "RAPID",
+    "modelo": "P609",
+    "origen": "CHINA",
+    "precioDolares": 110,
+    "precioPesos": 4730
+  },
+  {
+    "medida": "235/45R18",
+    "marca": "RAPID",
+    "modelo": "P609",
+    "origen": "CHINA",
+    "precioDolares": 117,
+    "precioPesos": 5031
+  },
+  {
+    "medida": "235/45R18",
+    "marca": "WANLI",
+    "modelo": "SP022 EV",
+    "origen": "CHINA",
+    "precioDolares": 119,
+    "precioPesos": 5117
+  },
+  {
+    "medida": "235/50R18",
+    "marca": "GOODYEAR",
+    "modelo": "ASSURANCE FUELMAX",
+    "origen": "CHINA",
+    "precioDolares": 382,
+    "precioPesos": 16426
+  },
+  {
+    "medida": "235/55R18",
+    "marca": "RAPID",
+    "modelo": "ECOSAVER HT",
+    "origen": "CHINA",
+    "precioDolares": 128,
+    "precioPesos": 5504
+  },
+  {
+    "medida": "235/60R18",
+    "marca": "RAPID",
+    "modelo": "ECOSAVER II HT",
+    "origen": "CHINA",
+    "precioDolares": 131,
+    "precioPesos": 5633
+  },
+  {
+    "medida": "235/60R18",
+    "marca": "WANLI",
+    "modelo": "AS028 SUV",
+    "origen": "CHINA",
+    "precioDolares": 145,
+    "precioPesos": 6235
+  },
+  {
+    "medida": "245/40R18",
+    "marca": "RAPID",
+    "modelo": "ECO819",
+    "origen": "CHINA",
+    "precioDolares": 116,
+    "precioPesos": 4988
+  },
+  {
+    "medida": "245/60R18",
+    "marca": "WANLI",
+    "modelo": "SU025 SUV",
+    "origen": "CHINA",
+    "precioDolares": 146,
+    "precioPesos": 6278
+  },
+  {
+    "medida": "265/60R18",
+    "marca": "RAPID",
+    "modelo": "ECOSAVER HT",
+    "origen": "CHINA",
+    "precioDolares": 165,
+    "precioPesos": 7095
+  },
+  {
+    "medida": "265/60R18",
+    "marca": "RAPID",
+    "modelo": "ECOLANDER AT",
+    "origen": "CHINA",
+    "precioDolares": 175,
+    "precioPesos": 7525
+  },
+  {
+    "medida": "265/60R18",
+    "marca": "WANLI",
+    "modelo": "SU006 AT",
+    "origen": "CHINA",
+    "precioDolares": 176,
+    "precioPesos": 7568
+  },
+  {
+    "medida": "275/65R18",
+    "marca": "RAPID",
+    "modelo": "ECOLANDER AT",
+    "origen": "CHINA",
+    "precioDolares": 165,
+    "precioPesos": 7095
+  },
+  {
+    "medida": "275/65R18",
+    "marca": "RAPID",
+    "modelo": "CONTENDER MT",
+    "origen": "CHINA",
+    "precioDolares": 281,
+    "precioPesos": 12083
+  },
+  {
+    "medida": "285/60R18",
+    "marca": "WANLI",
+    "modelo": "SU006 AT",
+    "origen": "CHINA",
+    "precioDolares": 205,
+    "precioPesos": 8815
+  },
+  {
+    "medida": "33X12.50R18",
+    "marca": "RAPID",
+    "modelo": "MUD CONTENDER MT",
+    "origen": "CHINA",
+    "precioDolares": 309,
+    "precioPesos": 13287
+  },
+  {
+    "medida": "225/45R19",
+    "marca": "RAPID",
+    "modelo": "ECOSPORT SUV",
+    "origen": "CHINA",
+    "precioDolares": 115,
+    "precioPesos": 4945
+  },
+  {
+    "medida": "225/55R19",
+    "marca": "RAPID",
+    "modelo": "ECOSPORT SUV",
+    "origen": "CHINA",
+    "precioDolares": 133,
+    "precioPesos": 5719
+  },
+  {
+    "medida": "235/50R19",
+    "marca": "RAPID",
+    "modelo": "ECOSPORT SUV",
+    "origen": "CHINA",
+    "precioDolares": 133,
+    "precioPesos": 5719
+  },
+  {
+    "medida": "235/50R19",
+    "marca": "GOODYEAR",
+    "modelo": "EFFICIENTGRIP PERFORMANCE",
+    "origen": "CHINA",
+    "precioDolares": 354,
+    "precioPesos": 15222
+  },
+  {
+    "medida": "235/55R19",
+    "marca": "WANLI",
+    "modelo": "AS028 SUV EO",
+    "origen": "CHINA",
+    "precioDolares": 150,
+    "precioPesos": 6450
+  },
+  {
+    "medida": "235/55R19",
+    "marca": "WANLI",
+    "modelo": "SU306 EV",
+    "origen": "CHINA",
+    "precioDolares": 161,
+    "precioPesos": 6923
+  },
+  {
+    "medida": "245/40R19",
+    "marca": "GOODYEAR",
+    "modelo": "EAGLE F1 ASYMMETRIC 3",
+    "origen": "CHINA",
+    "precioDolares": 339,
+    "precioPesos": 14577
+  },
+  {
+    "medida": "245/45R19",
+    "marca": "RAPID",
+    "modelo": "ECOSPORT SUV",
+    "origen": "CHINA",
+    "precioDolares": 131,
+    "precioPesos": 5633
+  },
+  {
+    "medida": "245/45R19",
+    "marca": "GOODYEAR",
+    "modelo": "EAGLE F1 ASYMMETRIC 3",
+    "origen": "CHINA",
+    "precioDolares": 364,
+    "precioPesos": 15652
+  },
+  {
+    "medida": "245/50R19",
+    "marca": "GOODYEAR",
+    "modelo": "EAGLE F1 ASYMMETRIC",
+    "origen": "CHINA",
+    "precioDolares": 584,
+    "precioPesos": 25112
+  },
+  {
+    "medida": "255/45R19",
+    "marca": "GOODYEAR",
+    "modelo": "EAGLE F1 ASYMMETRIC",
+    "origen": "CHINA",
+    "precioDolares": 437,
+    "precioPesos": 18791
+  },
+  {
+    "medida": "245/45R20",
+    "marca": "WANLI",
+    "modelo": "SU306 EV",
+    "origen": "CHINA",
+    "precioDolares": 157,
+    "precioPesos": 6751
+  },
+  {
+    "medida": "255/40R20",
+    "marca": "GOODYEAR",
+    "modelo": "EAGLE F1 ASYMMETRIC 3",
+    "origen": "CHINA",
+    "precioDolares": 436,
+    "precioPesos": 18748
+  },
+  {
+    "medida": "255/45R20",
+    "marca": "RAPID",
+    "modelo": "ECOSPORT SUV",
+    "origen": "CHINA",
+    "precioDolares": 147,
+    "precioPesos": 6321
+  },
+  {
+    "medida": "255/45R20",
+    "marca": "GOODYEAR",
+    "modelo": "EAGLE SPORT ROF",
+    "origen": "CHINA",
+    "precioDolares": 479,
+    "precioPesos": 20597
+  },
+  {
+    "medida": "275/45R20",
+    "marca": "GOODYEAR",
+    "modelo": "EAGLE F1 ASYMMETRIC 3 SUV",
+    "origen": "CHINA",
+    "precioDolares": 502,
+    "precioPesos": 21586
+  },
+  {
+    "medida": "275/45R21",
+    "marca": "GOODYEAR",
+    "modelo": "EAGLE F1 ASYMMETRIC SUV",
+    "origen": "CHINA",
+    "precioDolares": 638,
+    "precioPesos": 27434
+  },
+  {
+    "medida": "285/35R21",
+    "marca": "GOODYEAR",
+    "modelo": "EAGLE F1 ASYMMETRIC 6",
+    "origen": "CHINA",
+    "precioDolares": 681,
+    "precioPesos": 29283
+  }
+]
