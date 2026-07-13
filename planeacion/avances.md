@@ -1,8 +1,12 @@
 # Avances del Proyecto — Cotizador Gomería La Lucha
 
 **Prefijo del proyecto:** `cotiz_`
-**Última actualización:** 2026-07-13
-**Estado general:** en desarrollo (MVP funcional, falta probar instalación real en iPhone)
+**Última actualización:** 2026-07-14 (cierre de sesión)
+**Estado general:** publicado (MVP en producción, falta probar instalación real en Android/iPhone)
+**Repositorio:** https://github.com/GerardoMexDev/cotizador-la-lucha (público)
+**URL en producción:** https://gerardomexdev.github.io/cotizador-la-lucha/
+
+> **Para retomar la próxima sesión:** el MVP está publicado y funcionando. Lo primero para hacer: (1) probar instalación real en Android e iPhone, (2) decidir si se suma backend/DB para sincronizar "Clientes en espera" entre dispositivos (ver punto 5). No hay nada roto ni a medio hacer.
 
 ---
 
@@ -10,11 +14,11 @@
 PWA para que los vendedores de Gomería La Lucha (San Juan y Solís) busquen un neumático por medida y obtengan al instante el precio final de venta al público, en pesos y dólares, sin ver costos ni márgenes internos.
 
 ## 2. Stack técnico
-- Backend: ninguno (no hace falta — ver `05-guia-decision-tecnica.md` y punto 7 del alcance).
+- Backend: ninguno (no hace falta — ver `05-guia-decision-tecnica.md` y punto 7 del alcance). Gerardo preguntó por sumar backend + DB para sincronizar "clientes en espera" entre dispositivos — decidido posponerlo para no arriesgar el plazo de publicación (ver punto 5, pendientes).
 - Frontend: PWA con JavaScript vanilla, HTML y CSS puro, sin framework.
 - Base de datos: ninguna — los datos viven en `public/data/neumaticos.json`, generado desde el Excel del proveedor.
-- Hosting: a definir (cualquier hosting estático sirve — Netlify, Vercel, hosting propio, etc.).
-- Integraciones externas: ninguna.
+- Hosting: **GitHub Pages**, deploy automático vía GitHub Actions (`.github/workflows/deploy-pages.yml`) en cada push a `master`. Publica la carpeta `public/`.
+- Integraciones externas: ninguna (el envío por WhatsApp es un link `wa.me`, no una API).
 
 ## 3. Estructura de archivos clave
 | Archivo | Función |
@@ -28,8 +32,16 @@ PWA para que los vendedores de Gomería La Lucha (San Juan y Solís) busquen un 
 | `public/data/neumaticos.json` | Datos de precios (generado, no editar a mano) |
 | `scripts/excel-a-json.js` | Conversor Excel → JSON. Correr `npm run datos` cada vez que cambia la lista del proveedor |
 | `planeacion/LISTA_SJyS_julio_2026_cotizador_final_1.xlsx` | Excel fuente con la lista de precios (169 neumáticos, hoja "Cotizador") |
+| `.github/workflows/deploy-pages.yml` | Publica `public/` en GitHub Pages automáticamente en cada push a `master` |
 
 ## 4. Hecho (por fecha, más reciente primero)
+### 2026-07-14 (publicación)
+- Se creó el repositorio en GitHub (público, autorizado con la cuenta GerardoMexDev): https://github.com/GerardoMexDev/cotizador-la-lucha
+- Se publicó la app en GitHub Pages vía GitHub Actions: https://gerardomexdev.github.io/cotizador-la-lucha/ — cada push a `master` la actualiza sola (~15-20s).
+- Bug encontrado y corregido: el auto-reload del service worker (agregado para no tener que refrescar dos veces en cada actualización) se disparaba también en la PRIMERA visita de cualquiera, porque activar un service worker por primera vez también cuenta como "cambio de controlador" para el navegador. Se corrigió para que solo recargue cuando ya había un controlador previo (o sea, en actualizaciones reales, no en la primera instalación).
+- Se probó la versión publicada (no localhost) con Playwright: carga única en primera visita, búsqueda funcionando, manifest y service worker registrados correctamente, sin errores de consola.
+- Decisión pendiente con Gerardo: sumar backend + base de datos (Supabase/Firebase) para que la lista de "clientes en espera" sea una sola sincronizada entre dispositivos, en vez de guardarse por separado en cada celular/PC (`localStorage`). Se pospuso para no arriesgar la publicación de hoy — queda como próximo paso.
+
 ### 2026-07-14 (cantidad de cubiertas)
 - Se agregó el campo "Cantidad de cubiertas" (numérico, obligatorio, mínimo 1) al formulario de aviso de cada tarjeta, entre nombre y teléfono. Se valida igual que los otros campos (mensaje de error si falta o es 0).
 - La cantidad se guarda en el cliente en espera, se muestra en la lista ("4 × 175/70R14 · RAPID ECO809 · Tel: ...") y se incluye en el mensaje de WhatsApp a administración ("...solicitó 4 cubiertas 175/70R14...").
@@ -80,14 +92,15 @@ PWA para que los vendedores de Gomería La Lucha (San Juan y Solís) busquen un 
 - Se decidió no usar el logo completo en el header (ilegible a 44px de alto) — se usa el ícono de la cubierta recortado + texto tipografiado en su lugar.
 
 ## 5. Pendiente / próximos pasos
-- [ ] Probar instalación real en un iPhone (Safari → "Agregar a inicio") — prioridad: alta, es punto de atención explícito del alcance.
-- [ ] Probar instalación real en Android (Chrome) — prioridad: alta.
-- [ ] Definir y contratar el hosting donde se va a publicar — prioridad: media.
+- [ ] Probar instalación real en un iPhone (Safari → "Agregar a inicio") desde https://gerardomexdev.github.io/cotizador-la-lucha/ — prioridad: alta, es punto de atención explícito del alcance. Ya se puede probar, la app está publicada.
+- [ ] Probar instalación real en Android (Chrome) — prioridad: alta. Ídem, ya se puede probar.
+- [ ] Evaluar sumar backend + base de datos (Supabase o Firebase, plan gratis) para que "Clientes en espera" sea una sola lista sincronizada entre todos los dispositivos, en vez de guardarse por separado en cada uno (`localStorage`) — prioridad: media, lo pidió Gerardo pero se pospuso para no atrasar la publicación del MVP.
 - [ ] Definir con Gerardo los plazos de entrega (punto 8 del alcance sigue "a definir") — prioridad: media.
-- [ ] Cuando el proveedor actualice la lista de precios: reemplazar el Excel en `planeacion/` y correr `npm run datos` — prioridad: recurrente.
+- [x] Definir y contratar el hosting donde se va a publicar — GitHub Pages, hecho 2026-07-14.
+- [ ] Cuando el proveedor actualice la lista de precios: reemplazar el Excel en `planeacion/`, correr `npm run datos`, y hacer `git push` (el deploy a GitHub Pages es automático) — prioridad: recurrente.
 
 ## 6. Bugs conocidos / cosas a vigilar
-- Ninguno abierto. Los bugs de los chips y del formulario de aviso visibles antes de tiempo ya se corrigieron (ver punto 4).
+- Ninguno abierto. Los bugs de los chips, del formulario de aviso visibles antes de tiempo, y del auto-reload disparándose en la primera visita ya se corrigieron (ver punto 4).
 - **Importante para cualquier cambio futuro en `public/`:** el service worker cachea agresivamente (cache-first). Cada vez que se edite HTML/CSS/JS, hay que subir `VERSION_CACHE` en `service-worker.js` — si no, los dispositivos que ya instalaron la app van a seguir viendo la versión vieja aunque el código en el repo esté actualizado. Ya se agregó auto-recarga cuando el SW detecta una versión nueva, así que con un solo refresh alcanza (antes hacían falta dos).
 
 ## 7. Decisiones de arquitectura ya tomadas (no reabrir sin motivo)
