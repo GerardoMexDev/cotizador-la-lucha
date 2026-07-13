@@ -7,7 +7,7 @@
  * Creado: 2026-07-12
  */
 
-const VERSION_CACHE = 'la-lucha-v5';
+const VERSION_CACHE = 'la-lucha-v6';
 
 const ARCHIVOS_SHELL = [
   './',

@@ -268,12 +268,14 @@
   });
 
   if ('serviceWorker' in navigator) {
-    // Cuando se activa una versión nueva del service worker, se recarga sola
-    // para que la actualización se vea al toque (si no, hace falta refrescar
-    // la página dos veces por cómo funciona el ciclo de vida del SW).
+    // Cuando se activa una versión NUEVA del service worker (no la primera
+    // instalación), se recarga sola para que la actualización se vea al
+    // toque (si no, hace falta refrescar la página dos veces por cómo
+    // funciona el ciclo de vida del SW).
+    const yaTeniaControlador = Boolean(navigator.serviceWorker.controller);
     let yaRecargo = false;
     navigator.serviceWorker.addEventListener('controllerchange', () => {
-      if (yaRecargo) return;
+      if (!yaTeniaControlador || yaRecargo) return;
       yaRecargo = true;
       window.location.reload();
     });
